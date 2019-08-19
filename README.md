@@ -15,8 +15,8 @@ Incremental search bar that allows the user to search instantaneously among a li
 
 Incremental search responsive to typing and deleting
 
-<img src='./searchbar.gif' />
+<img height='400px' src='./searchbar.gif' />
 
 Results bar navegable both with mouse and keyboard (arrow keys + enter to select)
 
-<img src='./resultsbar.gif' />
+<img height='400px' src='./resultsbar.gif' />
