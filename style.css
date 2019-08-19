@@ -1,0 +1,41 @@
+input {
+    font-size: 3rem;
+    width: 30rem;
+    margin: none;
+    text-align: center;
+    background: lightpink;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100vw;
+    height: 100vh;
+}
+
+#results {
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+    width: 30.2rem;
+    margin: none;
+    /* height: 14rem; */
+}
+
+.resultBox {
+    /* border: rgba(0, 0, 0, 0.5) solid 1px; */
+    height: 3rem;
+    padding: 0.3rem 0.2rem;
+    font-size: 3rem;
+    background: rgba(220, 220, 220, 0.3);
+    font-family: monospace;
+    text-align: center;
+}
+.resultBox.on {
+    color: cornflowerblue;
+    background-color: rgba(220, 220, 220, 1);
+}
+
+#results.hidden {
+    visibility: hidden;
+}
